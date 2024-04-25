@@ -1,0 +1,87 @@
+.corp5{
+    width: 100%;
+    background-color: #F7FAF8;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+.blogTxtButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 55%;
+}
+.blogTxt h1{
+    font-size: 40px;
+    color: #1EB57E;
+}
+.blogTxt h2{
+    color: #646564;
+    font-size: 30px;
+}
+.blogTxt p{
+    color: #646564;
+}
+#ceo{
+    font-weight: bold;
+}
+.blogTxt p span{
+    color: #1EB57E;
+}
+.blogButton{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    height: 20px;
+}
+.blogButton div{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+.blogButton a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: #454644;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    color: #F7FAF8;
+}
+.blogButton a:hover{
+    transition: .3s;
+    color: #1EB57E;
+    background-color: #1EB57E;
+    width: 30px;
+    height: 30px;
+    background-clip: content-box;
+    padding: 4px;
+    color: #1EB57E;
+    border: 1px solid #1EB57E;
+}
+#primeiro{
+    color: #1EB57E;
+    background-color: #1EB57E;
+    width: 30px;
+    height: 30px;
+    background-clip: content-box;
+    padding: 4px;
+    color: #1EB57E;
+    border: 1px solid #1EB57E;
+}
+#primeiro:hover{
+    transition: .3s;
+    background-color: #454644;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    color: #F7FAF8;
+    border: 0px;
+}

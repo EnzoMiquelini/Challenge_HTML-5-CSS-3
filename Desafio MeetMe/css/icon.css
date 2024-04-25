@@ -1,0 +1,25 @@
+.iconHomeFundo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.iconHome{
+    display: flex;
+    width: 15%;
+    height: 30px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 1px gray;;
+}
+.iconHome div{
+    text-align: center;
+    width: 100%;
+}
+.iconHome div a{
+    text-align: center;
+}
+.iconHome div a ion-icon{
+    width: 30px;
+    height: 30px;
+    color: #1EB57E;
+}

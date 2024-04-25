@@ -1,0 +1,102 @@
+.headerFundo{
+    height: 600px;  
+    background-image: url(../img/Cara\ do\ Fundo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+.corp1{
+    width: 100%;
+    height: 71%;
+}
+.home{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+}
+.homeH2{
+    margin-left: 15%;
+    font-size: 35px;
+    margin-bottom: -35px;
+}
+.homeP{
+    margin-left: 15%;
+}
+.buttonHome{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 15%;
+    align-items: center;
+    height: 100px;
+}
+.hereMeHome{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.hereMeHome a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #1EB57E;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid ;
+    margin-right: 5px;
+    align-items: center;
+}
+.hereMeHome a:hover{
+    background-color: #E7F5EF;
+    color: #1EB57E;
+    transition: .5s;
+}
+.portifolio a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #E7F5EF;
+    color: #1EB57E;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #1EB57E;
+    margin-left: 5px;
+}
+.portifolio a:hover{
+    background-color: #1EB57E;
+    color: white;
+    transition: .5s;
+}
+.iconHomeFundo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+}
+.iconHomeFundo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.iconHomeFundo div a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.iconHome{
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px;
+}

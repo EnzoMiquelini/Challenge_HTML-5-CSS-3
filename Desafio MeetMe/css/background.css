@@ -1,0 +1,9 @@
+body{
+    margin: 0px;
+}
+.fundo{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7FAF8;
+}

@@ -1,0 +1,42 @@
+.corp4{
+    width: 100%;
+}
+.portifolioCorp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.portifolioCorpTitle{
+    text-align: center;
+}
+.portifolioCorpTitle h2{
+    color: #1EB57E;
+    font-size: 40px;
+}
+.portifolioCorpNav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4FAF7;
+}
+#portifolioCorpall{
+    color: #1EB57E;
+}
+.portifolioCorp a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #646564;
+}
+.portifolioCorp h5{
+    font-size: 18px;
+}
+.portifolioCorpFotos{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.portifolioCorpFotos img{
+    margin-top: 30px;
+}
