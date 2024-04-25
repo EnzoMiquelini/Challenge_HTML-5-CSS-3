@@ -1,0 +1,58 @@
+#fundo{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+#header{
+    display: flex;
+    background-color: blue;
+    height: 150px;
+    width: 100%;
+    margin: auto;
+}
+#header div{
+    width: 50%;
+    margin: 10px;
+}
+#header1{
+    background-color: black;
+}
+#header2{
+    background-color: green;
+}
+.divB{
+    width: 100%;
+    display: flex;
+}
+.divB div{
+    width: 100%;
+    margin: 10px;
+}
+.divS{
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.divS div{
+    width: 32%;
+    margin: 10px;
+}
+#a1{
+    background-color: red;
+}
+#a2{
+    background-color: red;
+}
+#a3{
+    background-color: red;
+}
+#a4{
+    background-color: gray;
+}
+#a5{
+    background-color: gray;
+}
